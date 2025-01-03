@@ -2,12 +2,14 @@
   "name": "start-app-dir",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ismail-is.github.io/teamArabia",
   "scripts": {
     "dev": "next dev",
+    "build": "next build",
+    "export": "next build",
     "start": "next start",
+    "deploy": "gh-pages -d out",
     "lint": "next lint",
-    "build": "next build && next export",
-    "deploy": "npm run build && gh-pages -d out",
     "sass": "sass --watch public/assets/scss/main.scss:public/assets/css/main.css"
   },
   "dependencies": {
@@ -20,8 +22,5 @@
     "sass": "^1.66.1",
     "swiper": "^10.2.0",
     "wowjs": "^1.1.3"
-  },
-  "devDependencies": {
-    "gh-pages": "^6.3.0"
   }
 }
