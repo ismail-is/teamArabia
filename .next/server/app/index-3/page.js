@@ -204,7 +204,7 @@ module.exports = require("url");
 
 /***/ }),
 
-/***/ 11791:
+/***/ 34987:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -248,7 +248,7 @@ const tree = {
         {
         
         metadata: {
-    icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 63127))).default(props))],
+    icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 57481))).default(props))],
     apple: [],
     openGraph: [],
     twitter: [],
@@ -262,7 +262,7 @@ const tree = {
 'loading': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 40537)), "C:\\Work\\arabia team\\elitecons pack\\elitecons\\app\\loading.js"],
 'not-found': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 52987)), "C:\\Work\\arabia team\\elitecons pack\\elitecons\\app\\not-found.js"],
         metadata: {
-    icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 63127))).default(props))],
+    icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 57481))).default(props))],
     apple: [],
     openGraph: [],
     twitter: [],
@@ -303,17 +303,17 @@ const routeModule = new AppPageRouteModule({
 
 /***/ }),
 
-/***/ 62493:
+/***/ 98546:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 30524));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 50765));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 92706));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 50954, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 92706));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 97264));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 58276));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 16085));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 30878));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 16085));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 70659));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 70405))
 
@@ -3639,7 +3639,7 @@ const __default__ = proxy.default;
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [587,901,547,679,331,276], () => (__webpack_exec__(11791)));
+var __webpack_exports__ = __webpack_require__.X(0, [587,901,547,679,313,276], () => (__webpack_exec__(34987)));
 module.exports = __webpack_exports__;
 
 })();

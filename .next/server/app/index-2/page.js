@@ -204,7 +204,7 @@ module.exports = require("url");
 
 /***/ }),
 
-/***/ 46289:
+/***/ 24176:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -248,7 +248,7 @@ const tree = {
         {
         
         metadata: {
-    icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 63127))).default(props))],
+    icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 57481))).default(props))],
     apple: [],
     openGraph: [],
     twitter: [],
@@ -262,7 +262,7 @@ const tree = {
 'loading': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 40537)), "C:\\Work\\arabia team\\elitecons pack\\elitecons\\app\\loading.js"],
 'not-found': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 52987)), "C:\\Work\\arabia team\\elitecons pack\\elitecons\\app\\not-found.js"],
         metadata: {
-    icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 63127))).default(props))],
+    icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 57481))).default(props))],
     apple: [],
     openGraph: [],
     twitter: [],
@@ -303,22 +303,22 @@ const routeModule = new AppPageRouteModule({
 
 /***/ }),
 
-/***/ 65733:
+/***/ 56252:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 30524));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 97904));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8870));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 84662));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 58659));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 28777));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 84662));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 97904));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 50954, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8870));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 58659));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 57756));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 98824));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 41346));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 62488));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 41346));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9145));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 78073));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 98824));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 70671));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 39190))
 
@@ -4009,7 +4009,7 @@ function Home() {
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [587,901,547,331,276], () => (__webpack_exec__(46289)));
+var __webpack_exports__ = __webpack_require__.X(0, [587,901,547,313,276], () => (__webpack_exec__(24176)));
 module.exports = __webpack_exports__;
 
 })();

@@ -7,9 +7,9 @@ exports.modules = {
 
 // Exports
 module.exports = {
-	"style": {"fontFamily":"'__Yantramanav_6b2fa1', '__Yantramanav_Fallback_6b2fa1'","fontStyle":"normal"},
-	"className": "__className_6b2fa1",
-	"variable": "__variable_6b2fa1"
+	"style": {"fontFamily":"'__Yantramanav_194e6d', '__Yantramanav_Fallback_194e6d'","fontStyle":"normal"},
+	"className": "__className_194e6d",
+	"variable": "__variable_194e6d"
 };
 
 
@@ -31,7 +31,7 @@ Object.defineProperty(exports, "addBasePath", ({
 }));
 const _addpathprefix = __webpack_require__(30893);
 const _normalizetrailingslash = __webpack_require__(61094);
-const basePath = "/teamArabia" || 0;
+const basePath =  false || "";
 function addBasePath(path, required) {
     return (0, _normalizetrailingslash.normalizePathTrailingSlash)( false ? 0 : (0, _addpathprefix.addPathPrefix)(path, basePath));
 }
@@ -340,7 +340,12 @@ function urlToUrlWithoutFlightMarker(url) {
     const urlWithoutFlightParameters = new URL(url, location.origin);
     urlWithoutFlightParameters.searchParams.delete(_approuterheaders.NEXT_RSC_UNION_QUERY);
     if (true) {
-        if (false) {}
+        if ( true && urlWithoutFlightParameters.pathname.endsWith(".txt")) {
+            const { pathname } = urlWithoutFlightParameters;
+            const length = pathname.endsWith("/index.txt") ? 10 : 4;
+            // Slice off `/index.txt` or `.txt` from the end of the pathname
+            urlWithoutFlightParameters.pathname = pathname.slice(0, -length);
+        }
     }
     return urlWithoutFlightParameters;
 }
@@ -2618,7 +2623,13 @@ async function fetchServerResponse(url, flightRouterState, nextUrl, currentBuild
     try {
         let fetchUrl = new URL(url);
         if (true) {
-            if (false) {}
+            if (true) {
+                if (fetchUrl.pathname.endsWith("/")) {
+                    fetchUrl.pathname += "index.txt";
+                } else {
+                    fetchUrl.pathname += ".txt";
+                }
+            }
         }
         // Add unique cache query to avoid caching conflicts on CDN which don't respect to Vary header
         fetchUrl.searchParams.set(_approuterheaders.NEXT_RSC_UNION_QUERY, uniqueCacheQuery);
@@ -2632,7 +2643,11 @@ async function fetchServerResponse(url, flightRouterState, nextUrl, currentBuild
         const contentType = res.headers.get("content-type") || "";
         let isFlightResponse = contentType === _approuterheaders.RSC_CONTENT_TYPE_HEADER;
         if (true) {
-            if (false) {}
+            if (true) {
+                if (!isFlightResponse) {
+                    isFlightResponse = contentType.startsWith("text/plain");
+                }
+            }
         }
         // If fetch returns something different than flight response handle it like a mpa navigation
         // If the fetch was not 200, we also handle it like a mpa navigation
@@ -4655,7 +4670,7 @@ Object.defineProperty(exports, "getDomainLocale", ({
     }
 }));
 const _normalizetrailingslash = __webpack_require__(61094);
-const basePath = (/* unused pure expression or super */ null && ("/teamArabia" || 0));
+const basePath = (/* unused pure expression or super */ null && ( false || ""));
 function getDomainLocale(path, locale, locales, domainLocales) {
     if (false) {} else {
         return false;
@@ -4687,7 +4702,7 @@ Object.defineProperty(exports, "hasBasePath", ({
     }
 }));
 const _pathhasprefix = __webpack_require__(54614);
-const basePath = "/teamArabia" || 0;
+const basePath =  false || "";
 function hasBasePath(path) {
     return (0, _pathhasprefix.pathHasPrefix)(path, basePath);
 }
@@ -5050,7 +5065,7 @@ Object.defineProperty(exports, "removeBasePath", ({
     }
 }));
 const _hasbasepath = __webpack_require__(94374);
-const basePath = "/teamArabia" || 0;
+const basePath =  false || "";
 function removeBasePath(path) {
     if (false) {}
     // Can't trim the basePath if it has zero length!
