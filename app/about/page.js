@@ -297,7 +297,7 @@ export default function About() {
         {/* Success One End */}
 
         {/*FAQ One Start*/}
-        <section className="faq-one faq-five">
+        {/* <section className="faq-one faq-five">
             <div className="container">
                 <div className="row">
                     <div className="col-xl-6 col-lg-6">
@@ -330,7 +330,7 @@ export default function About() {
                                                 sed
                                                 eu massa eu faucibus. Urna fusce aenea tortor pretium Et purus duis
                                                 sollicitudin dignissim habitant</p>
-                                        </div>{/* /.inner */}
+                                        </div>
                                     </div>
                                 </div>
                                 <div className={isActive.key == 2 ? "accrodion active" : "accrodion"} onClick={() => handleToggle(2)}>
@@ -343,7 +343,7 @@ export default function About() {
                                                 sed
                                                 eu massa eu faucibus. Urna fusce aenea tortor pretium Et purus duis
                                                 sollicitudin dignissim habitant</p>
-                                        </div>{/* /.inner */}
+                                        </div>
                                     </div>
                                 </div>
                                 <div className={isActive.key == 3 ? "accrodion active" : "accrodion"} onClick={() => handleToggle(3)}>
@@ -356,7 +356,7 @@ export default function About() {
                                                 sed
                                                 eu massa eu faucibus. Urna fusce aenea tortor pretium Et purus duis
                                                 sollicitudin dignissim habitant</p>
-                                        </div>{/* /.inner */}
+                                        </div>
                                     </div>
                                 </div>
                                 <div className={isActive.key == 4 ? "accrodion active" : "accrodion"} onClick={() => handleToggle(4)}>
@@ -369,7 +369,7 @@ export default function About() {
                                                 sed
                                                 eu massa eu faucibus. Urna fusce aenea tortor pretium Et purus duis
                                                 sollicitudin dignissim habitant</p>
-                                        </div>{/* /.inner */}
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -377,7 +377,7 @@ export default function About() {
                     </div>
                 </div>
             </div>
-        </section>
+        </section> */}
         {/*FAQ One End*/}
 
         {/*CTA One Start*/}

@@ -24,16 +24,16 @@ export default function Home() {
                 <Services/>
                 <About/>
                 <Services2/>
-                <Slidingtext/>
-                <Project/>
-                <Pricing/>
+                {/* <Slidingtext/> */}
+                {/* <Project/> */}
+                {/* <Pricing/> */}
                 <Whychoose/>
                 <Counter/>
                 <Brand/>
                 <Faq/>
                 <Contact/>
                 <Testimonai/>
-                <Blog/>
+                {/* <Blog/> */}
                 <Cta/>
                 
             </Layout>

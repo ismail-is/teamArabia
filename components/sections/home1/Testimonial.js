@@ -35,7 +35,7 @@ export default function Testimonial() {
         <>
 
         {/*Testimonial One Start*/}
-        <section className="testimonial-one">
+        <section className="testimonial-one" style={{marginBottom:'30px'}}>
             <div className="container">
                 <div className="section-title text-center">
                     <div className="section-title__tagline-box">

@@ -32,7 +32,7 @@ export default function Header1({ scroll, handleMobileMenu, handlePopup }) {
                                         <img src="assets/images/icon/main-menu-comment-icon.png" alt=""/>
                                     </div>
                                     <div className="main-menu__call-number">
-                                        <p>Need Help:</p>
+                                        <p>Contact Us:</p>
                                         <h5><Link href="tel:3075550133">(307) 555-0133</Link></h5>
                                     </div>
                                 </div>

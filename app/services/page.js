@@ -1,5 +1,8 @@
 'use client'
 import Layout from "@/components/layout/Layout"
+import About from "@/components/sections/home5/About"
+import Banner5 from "@/components/sections/home5/Banner"
+import Cta from "@/components/sections/home5/Cta"
 import Link from "next/link"
 export default function Home() {
     
@@ -7,10 +10,9 @@ export default function Home() {
         <>
         <Layout headerStyle={6} footerStyle={6} breadcrumbTitle="Services">
         {/*Services Page Start*/}
-        <section className="services-page">
+        {/* <section className="services-page">
             <div className="container">
                 <div className="row">
-                    {/* Services Four Single Start */}
                     <div className="col-xl-4 col-lg-4 col-md-6">
                         <div className="services-four__single">
                             <div className="services-four__img">
@@ -28,8 +30,7 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                    {/* Services Four Single End */}
-                    {/* Services Four Single Start */}
+                   
                     <div className="col-xl-4 col-lg-4 col-md-6">
                         <div className="services-four__single">
                             <div className="services-four__img">
@@ -47,8 +48,7 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                    {/* Services Four Single End */}
-                    {/* Services Four Single Start */}
+              
                     <div className="col-xl-4 col-lg-4 col-md-6">
                         <div className="services-four__single">
                             <div className="services-four__img">
@@ -67,8 +67,7 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                    {/* Services Four Single End */}
-                    {/* Services Four Single Start */}
+                  
                     <div className="col-xl-4 col-lg-4 col-md-6">
                         <div className="services-four__single">
                             <div className="services-four__img">
@@ -86,8 +85,7 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                    {/* Services Four Single End */}
-                    {/* Services Four Single Start */}
+                  
                     <div className="col-xl-4 col-lg-4 col-md-6">
                         <div className="services-four__single">
                             <div className="services-four__img">
@@ -106,8 +104,7 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                    {/* Services Four Single End */}
-                    {/* Services Four Single Start */}
+                    
                     <div className="col-xl-4 col-lg-4 col-md-6">
                         <div className="services-four__single">
                             <div className="services-four__img">
@@ -125,14 +122,12 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                    {/* Services Four Single End */}
+                    
                 </div>
             </div>
-        </section>
-        {/*Services Page End*/}
-
-        {/*CTA One Start*/}
-        <section className="cta-one">
+        </section> */}
+        
+        {/* <section className="cta-one">
             <div className="container">
                 <div className="cta-one__inner">
                     <div className="cta-one__shape-1">
@@ -152,8 +147,11 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-        </section>
-        {/*CTA One End*/}
+        </section> */}
+
+<Banner5 />
+<About/>
+<Cta/>
             
             </Layout>
         </>
