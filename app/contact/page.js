@@ -5,7 +5,7 @@ export default function Home() {
 
     return (
         <>
-    <Layout headerStyle={6} footerStyle={6} breadcrumbTitle="Contact">
+    <Layout headerStyle={1} footerStyle={6} breadcrumbTitle="Contact" >
         
         {/*Contact Page Start*/}
         <section className="contact-page">
@@ -14,7 +14,7 @@ export default function Home() {
                     <div className="col-xl-6 col-lg-6">
                         <div className="contact-page__left">
                             <div className="contact-page__img">
-                                <img src="assets/images/resources/contact-page-img-1.jpg" alt=""/>
+                                <img src="assets/images/allimg/logo/contact/Contact Us Image.webp" alt=""/>
                             </div>
                         </div>
                     </div>
@@ -28,8 +28,9 @@ export default function Home() {
                                         <span className="icon-location"></span>
                                     </div>
                                     <div className="content">
-                                        <h3>Location</h3>
-                                        <p>Dhaka 102, utl 1216, road 45 house of<br/> street</p>
+                                        <h3>Address</h3>
+                                        <p>P.O Box: 4850, Dhakhal Mahdood, Al Jubail,<br/> Kingdom of Saudi Arabia - 31951
+                                        </p>
                                     </div>
                                 </li>
                                 <li>
@@ -38,8 +39,11 @@ export default function Home() {
                                     </div>
                                     <div className="content">
                                         <h3>Phone number</h3>
-                                        <p><Link href="tel:01400823544">01400823544</Link></p>
-                                        <p><Link href="tel:1234000000">1234 - 000 - 000 </Link></p>
+                                        <p><Link href="tel:66 539402676">+966 539402676
+
+                                        </Link></p>
+                                        <p><Link href="tel:966 50591 5463">+966 50591 5463
+                                        </Link></p>
                                     </div>
                                 </li>
                                 <li>
@@ -48,15 +52,16 @@ export default function Home() {
                                     </div>
                                     <div className="content">
                                         <h3>Email</h3>
-                                        <p><Link href="mailto:info@exampleyourmail.com">info@exampleyourmail.com</Link></p>
+                                        <p><Link href="mailto:info@teamarabiaksa.com">info@teamarabiaksa.com
+                                        </Link></p>
                                     </div>
                                 </li>
                             </ul>
                             <div className="contact-page__social">
-                                <Link href="#"><i className="icon-facebook"></i></Link>
-                                <Link href="#"><i className="icon-twitter"></i></Link>
                                 <Link href="#"><i className="icon-instagram"></i></Link>
-                                <Link href="#"><i className="icon-link-in"></i></Link>
+                                <Link href="#"><i className="icon-email"></i></Link>
+                                {/* <Link href="#"><i className="icon-instagram"></i></Link>
+                                <Link href="#"><i className="icon-link-in"></i></Link> */}
                             </div>
                         </div>
                     </div>
@@ -68,7 +73,7 @@ export default function Home() {
         {/*Google Map Start*/}
         <section className="google-map-one">
             <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4562.753041141002!2d-118.80123790098536!3d34.152323469614075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e82469c2162619%3A0xba03efb7998eef6d!2sCostco+Wholesale!5e0!3m2!1sbn!2sbd!4v1562518641290!5m2!1sbn!2sbd"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10832.930673166664!2d49.65135803218491!3d26.98515314726782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e35a1b1c7a917c1%3A0x2aa5d1deebaa3c7b!2sAl%20Dakhal%20Al%20Mahdud%20Subdivision%2C%20Al%20Jubail%2035513%2C%20Saudi%20Arabia!5e1!3m2!1sen!2sin!4v1735882226267!5m2!1sen!2sin"
                 className="google-map__one"></iframe>
 
         </section>
@@ -126,7 +131,7 @@ export default function Home() {
         {/*Contact Three End*/}
 
         {/*CTA One Start*/}
-        <section className="cta-one">
+        {/* <section className="cta-one">
             <div className="container">
                 <div className="cta-one__inner">
                     <div className="cta-one__shape-1">
@@ -146,7 +151,7 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-        </section>
+        </section> */}
         {/*CTA One End*/}
 
     </Layout>

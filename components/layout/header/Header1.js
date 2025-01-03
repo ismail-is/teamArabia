@@ -13,7 +13,7 @@ export default function Header1({ scroll, handleMobileMenu, handlePopup }) {
                     <div className="main-menu__wrapper-inner">
                         <div className="main-menu__left">
                             <div className="main-menu__logo">
-                                <Link href="/"><img src="assets/images/resources/logo-1.png" alt=""/></Link>
+                                <Link href="/"><img src="assets/images/allimg/logo/teamarbialogo.png" alt="" style={{height:'40px'}}/></Link>
                             </div>
                         </div>
                         <div className="main-menu__right">
@@ -50,7 +50,7 @@ export default function Header1({ scroll, handleMobileMenu, handlePopup }) {
                         <div className="main-menu__wrapper-inner">
                             <div className="main-menu__left">
                                 <div className="main-menu__logo">
-                                    <Link href="/"><img src="assets/images/resources/logo-1.png" alt=""/></Link>
+                                    <Link href="/"><img src="assets/images/allimg/logo/teamarbialogo.png" alt="" style={{height:'40px'}}/></Link>
                                 </div>
                             </div>
                             <div className="main-menu__right">
@@ -69,7 +69,7 @@ export default function Header1({ scroll, handleMobileMenu, handlePopup }) {
                                             <img src="assets/images/icon/main-menu-comment-icon.png" alt=""/>
                                         </div>
                                         <div className="main-menu__call-number">
-                                            <p>Need Help:</p>
+                                            <p>Contact Us::</p>
                                             <h5><Link href="tel:3075550133">(307) 555-0133</Link></h5>
                                         </div>
                                     </div>

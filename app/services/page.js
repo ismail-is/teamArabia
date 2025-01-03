@@ -1,5 +1,6 @@
 'use client'
 import Layout from "@/components/layout/Layout"
+import Services2 from "@/components/sections/home4/Services2"
 import About from "@/components/sections/home5/About"
 import Banner5 from "@/components/sections/home5/Banner"
 import Cta from "@/components/sections/home5/Cta"
@@ -150,7 +151,8 @@ export default function Home() {
         </section> */}
 
 <Banner5 />
-<About/>
+{/* <About/> */}
+<Services2/>
 <Cta/>
             
             </Layout>

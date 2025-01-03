@@ -18,13 +18,13 @@ export default function Banner5() {
                     <div className="row">
                         <div className="col-xl-7">
                             <div className="banner-one__top-left">
-                                <h2 className="banner-one__top-title">Building dreams one <br/> brick at a time</h2>
+                                <h2 className="banner-one__top-title">End to End 
+                              Management Consultation Services</h2>
                             </div>
                         </div>
                         <div className="col-xl-5">
                             <div className="banner-one__top-right">
-                                <p className="banner-one__top-text">We have been operating for over a decade, providing
-                                    top-notch services to our clients and building a strong</p>
+                                <p className="banner-one__top-text">Partner with us for tailored solutions that drive efficiency, productivity, and success!</p>
                                 <div className="banner-one__btn-box">
                                     <Link href="about" className="banner-one__btn thm-btn">read More<span
                                             className="icon-dabble-arrow-right"></span></Link>

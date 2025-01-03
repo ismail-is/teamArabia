@@ -1,4 +1,6 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {}
+const isGithubPages = process.env.NODE_ENV === 'production';
 
-module.exports = nextConfig
+module.exports = {
+  basePath: isGithubPages ? '/teamArabia' : '',
+  assetPrefix: isGithubPages ? '/ismail-is/' : '',
+};
